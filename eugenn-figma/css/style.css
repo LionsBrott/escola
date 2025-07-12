@@ -1,0 +1,269 @@
+.conteiner {
+    background-color: rgb(144, 219, 194);
+    padding: 0px 0px;
+}
+
+body{
+     height: 100dvh;
+    width: 100dvw;
+}
+
+.cabecalho {
+    background-color: rgb(155, 132, 132);
+}
+
+.cab_cima {
+    display: flex;
+    width: 100%; 
+    height: 50%; 
+    background-color:#1BBDA2;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 20%;
+    float: right;
+    height: 30%;
+}
+
+.d_pesquisa{
+    background-color: #1BBDA2;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 7%;
+}
+
+
+.pesquisa {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border:solid 0.4dvh;
+    border-color: #86FFF9;
+    border-radius: 10%;
+    width: 100%;
+    height: 40px;
+
+}
+
+#btnBusca{
+    float: right;
+    padding: 5%;
+    width: 15%;
+}
+
+#input_busca {
+    float: left;
+    /* ADQUIRE A COR DE BAIXO */
+    background-color: transparent;
+    
+    /* padding-left: 5px; */
+    font-size: 18px;
+    font-style: italic;
+    border: none;
+    width: 100%;
+    /* ZERA AS PROPIEDADES DE CONTORNO */
+    outline: none;
+
+    /* ADICIONADAS POR MIM */
+    display: flex;
+}
+  
+  /* MUDA A COR DO TEXTO DA BARRA */
+#input_busca::placeholder {
+    color:rgb(7, 7, 7)
+}
+
+/* MUDA O FORMATO DO CURSOR ADEQUADO A TEXTO */
+#link busca {
+    cursor: default;
+}
+
+.carrinho {
+    /* background-color: #1BBDA2; */
+    width: 10dvh;
+    display: flex;
+    justify-content: center;
+    float: right;
+    padding: 7dvh;
+
+}
+
+.user {
+    background-color: #1BBDA2;
+    width: 70PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.cab_baixo {
+    height: 70px;
+    background-color: #1BBDA2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conte {
+    width: 100%;
+    background-color: #86FFF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape {
+    height: auto;
+    justify-content: center;
+    display: flex;
+    /* width: 1300px; */
+    /* height: 250px; */
+    background-color: rgb(215, 236, 27);
+}
+
+.pag {
+
+    display: flex;
+    /* width: 450px;
+    height: 180px;  */
+    background-color: rgb(108, 121, 96);
+}
+
+.fret {
+    /* width: 30%;
+     height: 30%;  */
+    background-color: rgb(117, 124, 146);
+}
+
+.seg {
+
+    /* width: 450px; */
+    /* height: 180px; */
+    background-color: rgb(98, 96, 121);
+}
+
+
+/* centralizaçao das imagens */
+.logo , .pag , .fret, .seg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+nav ul {
+    font-size: larger;
+    color: aqua;
+    list-style: none;
+    float: left;
+}
+
+nav li {
+    position: relative;
+    float: left;
+    padding: 5px;
+}
+
+nav li a {
+    text-decoration: double;
+    background-color: #1C8E7B;
+}
+
+/* para mudar a cor pu coisa no link  */
+nav li a:hover {
+    background-color:antiquewhite;
+}
+
+.menub {
+    background-color:#2EB9B2 ;
+    display: flex;
+     
+}
+
+.menub p{
+    width: 60%;
+    padding-left: 2%;
+    text-align: center;
+}
+    /* ERRO */
+.conte3{
+    width: 100%;
+    height: 70%;
+    background-color: #86FFF9 ;
+    display: flex;
+
+}
+
+.conte3 div{
+    width: 50%; 
+    text-align: center;
+}
+.texto{
+      padding-top: 35% ;
+      font-size: 150%;
+}
+.conte3 img{
+    width: 50dvh;
+}
+
+
+/* categorias*/
+
+.conte2 {
+    background-color: rgb(79, 255, 255);
+    width: 100%;
+    padding: 5%;
+}
+
+.linha {
+
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* imagems */
+
+.img {
+    width: 30%;
+    padding: 2%;
+    padding-left: 2%;
+}
+
+.img img {
+    width: 80%;
+    border: solid;
+    border-radius: 8%;
+}
+
+/* modal - contato */
+.conte4{
+     background-color:#86FFF9; 
+     padding: 10dvh;
+     align-content: center;
+     justify-content: center;
+    
+  }
+
+fieldset{
+    border: whitesmoke;
+    background-color: white;
+}
+
+.campo_txt, .btn_submit{
+    position: relative;
+    border-radius: 1dvh;
+    width: 40dvw;
+    height: 3dvh;
+}
+
+.campo_msg{
+    width: 40dvw;
+
+}
+.campo_txt::placeholder{
+    font-style: italic;
+}
