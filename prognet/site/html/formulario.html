@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Define que o documento é um arquivo HTML5 e o idioma é inglês -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="icon" href="../imgs/biyoo.ico" type="image/ico">
+    <link rel="stylesheet" href="../css/style1.css">
+
+</head>
+
+<body>
+    <!-- Menu fixo -->
+    <nav class="menu">
+        <div class="logo"><img src="imgs/logo.png" alt="LOGO"></div>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="historico.html">HISTORIA</a></li>
+            <li><a href="noticias.html">NOTICIAS</a></li>
+            <li><a href="galeria.html">GALERIA</a></li>
+            <li><a href="tabelas.html">TABELAS</a></li>
+            <li><a href="formulario.html">FORMULARIO</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <!-- Banner superior -->
+        <div class="banner">
+            <p class="pbanner">전지적 독자 시점<br></p>
+        </div>
+
+        <div class="conteudo">
+
+            <div class="form">
+                <p>FORMULARIO</p>
+                <!-- Formulario simple que enviará una petición GET -->
+                formes do mdz
+                <form action="">
+                    <label for="GET-name">Nombre:</label>
+                    <input id="GET-name" type="text" name="name" />
+                    <input type="submit" value="Save" />
+                </form>
+
+                <!-- Formulario simple que enviará una petición POST -->
+                <form action="" method="post">
+                    <label for="POST-name">Nombre:</label>
+                    <input id="POST-name" type="text" name="name" />
+                    <input type="submit" value="Save" />
+                </form>
+
+                <!-- Formulario con conjunto de campos, leyenda y etiqueta -->
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>Título</legend>
+                        <input type="radio" name="radio" id="radio" checked/>
+                        <label for="radio">Clic aquí</label>
+                    </fieldset>
+                </form>
+
+
+                <!-- FEITO EM AULA -->
+
+                <form action="../php/formulario.php" method="post">
+                    <fieldset>
+                        <legend>CADASTROS</legend>
+                        <label for="NOME">Nome: </label><br>
+                        <input type="text" name="nome" id="NOME" placeholder="Seu nome"><br>
+
+                        <label for="SENHA">Senha: </label><br>
+                        <input type="password" name="senha" id="SENHA"><br>
+ <!-- required -->
+                        <label for="DATA">Data:</label><br>
+                        <input type="date" name="data" id="DATA" ><br>
+                        <!-- <input type="submit" value="ENVIAR" id="submit"><br> -->
+
+
+                        <!-- 01/07/2025 -->
+                        <label for="transporte">TIPO DE TRANSPORTE</label><br>
+
+                        
+                        <select name="transporte" id="">
+                            <option value=""></option>
+                            <option value="Carro">Carro</option>
+                            <option value="Bike">Bicicleta</option>
+                            <option value="Bus">Onibus</option>
+                            <option value="Van">Van</option>
+                        </select> <br>
+
+
+                        <label for="LINGUAGENS">LINGUAGENS</label><br>
+                       
+                        <input type="checkbox" value="java" name="linguagens[]" id="ling"> Java
+                        <input type="checkbox" value="cpp" name="linguagens[]" id="ling"> C++
+                        <input type="checkbox" value="php" name="linguagens[]" id="ling"> PHP <br>
+                        
+                        <label for="time">TIME PREFERIDO</label><br>
+                       
+                        <input type="radio" name="time_preferido" value="rm" id="time"> REAL MADRID<br>
+                        <input type="radio" name="time_preferido" id="time" value="vc"> VASCO <br>
+
+                        <input type="submit" value="ENVIAR" id="submit"><br>
+                    </fieldset>
+                </form>
+
+
+            </div>
+        </div>
+        <div class="rodape">
+            <p class="pcenter">threewaysurvive@hotmail.com</p>
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
+
+echo "# escola" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LionsBrott/escola.git
+git push -u origin main
